@@ -1,0 +1,20 @@
+разрешение экрана: 16:9 1920:1080
+login: Point(x=774, y=525)
+pas: Point(x=757, y=593)
+wind: Point(x=1111, y=248)
+lib: Point(x=566, y=199)
+search: Point(x=407, y=332)
+print dota
+dota: Point(x=405, y=393)
+play: Point(x=706, y=584)
+
+game: Point(x=1643, y=878)
+allpick: Point(x=1582, y=735)
+
+play_game: Point(x=1661, y=1024)
+end_game: Point(x=1841, y=1030)
+
+settings: Point(x=77, y=30)
+account: Point(x=1166, y=103)
+recal: Point(x=287, y=346)
+dota+: Point(x=1321, y=336)
