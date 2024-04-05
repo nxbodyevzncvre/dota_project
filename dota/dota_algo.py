@@ -44,7 +44,7 @@ def dota_algo():
     pg.click(config.exit_from_dota["exit_from_dota-x"], config.exit_from_dota["exit_from_dota-y"])
     sleep(10)
     pg.click(config.exit_from_dota_accept["exit_from_dota_accept-x"], config.exit_from_dota_accept["exit_from_dota_accept-y"])
-    sleep(20)
+    sleep(20) 
     pg.click(config.account_exit_settings["account_exit_settings-x"], config.account_exit_settings["account_exit_settings-y"])
     sleep(2)
     pg.click(config.account_exit_settings["account_exit_settings-x"], config.account_exit_settings["account_exit_settings-y"])
@@ -55,4 +55,3 @@ def dota_algo():
     sleep(10)
     pg.click(config.add_account["add_account-x"], config.add_account["add_account-y"])
     sleep(4)
-    

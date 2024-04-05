@@ -3,41 +3,23 @@ import pyautogui as pg
 import config
 
 sys.path.append(r"E:\python\titan")
-from titan_algo import login_titan
+from titan_algo import login_steam
 
 sys.path.append(r"E:\python\dota")
 from dota_algo import dota_algo
 
 sys.path.append(r"E:\python\users")
-from user_algo import take_data, delete
-from user_algo import user_data
-## 9)TAKE DATA //COMPLETED
-## 10)ALGORITHM FOR PASTING DATA(USER)
-## 11)OPEN DOTA
-## 12)START MATCH
-## 13)TIME.SLEEP()
-## 14)EXIdotaT FROM DOTA
-## 15)LOG OUT FROM STEAM
-
-
-
-
-
+from user_algo import take_data, delete, user_data
 
 
 def main():
     while dict:
         login, password = take_data(user_data)
-        login_titan(config.main_login, config.main_pass)
+        login_steam(config.main_login, config.main_pass)
         dota_algo()
-        login_titan(login, password)
+        login_steam(login, password)
         dota_algo()
-        delete()
-    
+        delete()    
 
-
-
-
-main()
-
-# print(pg.position())
+if __name__ == '__main__':
+    main()

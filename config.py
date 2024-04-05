@@ -1,4 +1,4 @@
-main_login, main_pass = "crybot888", "qwaq.dev888"
+main_login, main_pass = "titan", "titan"
 
 log = {"log-x" : 774,
        "log-y" : 456}
@@ -17,18 +17,15 @@ search = {"search-x" : 407,
 
 dota = {"dota-x" : 405,
         "dota-y" : 393}
-
-
+        
 play_steam = {"play-x" : 706,
               "play-y" : 584}
 
 game = {"game-x": 1676,
-        "game-y": 1025
-}
+        "game-y": 1025}
 
 allpick = {"allpick-x": 1553,
-           "allpick-y": 735
-}
+           "allpick-y": 735}
 
 play_dota_match = {"play_dota_match-x" : 1601,
                    "play_dota_match-y" : 1024}
@@ -65,4 +62,3 @@ account_exit_accept  = {"account_exit_accept-x" : 1058,
 
 add_account = {"add_account-x" : 1243,
                "add_account-y" : 565}
-        

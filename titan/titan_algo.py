@@ -4,15 +4,7 @@ from time import sleep
 import sys
 sys.path.append(r"E:\python\users")
 
-
-## 3)ALGORITHM FOR PASTING DATA(TITAN) ## 2)TAKE DATA
-## 4)OPEN DOTA
-## 5)START MATCH
-## 6)TIME.SLEEP()
-## 7)EXIT FROM DOTA
-## 8)LOG OUT FROM STEAM
-
-def login_titan(login, password):
+def login_steam(login, password):
     sleep(5)
     pg.click((config.log["log-x"]), (config.log["log-y"]))
     pg.typewrite(login)
