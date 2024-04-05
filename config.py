@@ -1,4 +1,4 @@
-main_login, main_pass = "jaredvincze595", "Sam134otyv"
+main_login, main_pass = "crybot888", "qwaq.dev888"
 
 log = {"log-x" : 774,
        "log-y" : 456}
@@ -20,7 +20,7 @@ dota = {"dota-x" : 405,
 
 
 play_steam = {"play-x" : 706,
-        "play-y" : 584}
+              "play-y" : 584}
 
 game = {"game-x": 1676,
         "game-y": 1025
@@ -31,7 +31,7 @@ allpick = {"allpick-x": 1553,
 }
 
 play_dota_match = {"play_dota_match-x" : 1601,
-             "play_dota_match-y" : 1024}
+                   "play_dota_match-y" : 1024}
 
 cancel_game = {"cancel-x" : 1841,
              "cancel-y" : 1030}
@@ -65,3 +65,4 @@ account_exit_accept  = {"account_exit_accept-x" : 1058,
 
 add_account = {"add_account-x" : 1243,
                "add_account-y" : 565}
+        

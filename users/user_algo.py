@@ -1,20 +1,26 @@
 import sys
 sys.path.append(r"E:\python")
 from readfile import read_details
+import config
 
-def take_data():
-    global dict
-    dict = read_details("accs.txt")
-    login = (tuple(dict.items())[0][1][0])
-    password = (tuple(dict.items())[1][1][0])
-    # return login, password
-    print(dict)
+
+user_data = read_details("accs.txt")
+
+def take_data(user_data):
+    # global user_data
+    # user_data = read_details("accs.txt")
+    login = (tuple(user_data.items())[0][1][0])
+    password = (tuple(user_data.items())[1][1][0])
+    return login, password
 
 def delete():
-    dict["login"].pop(0)
-    dict["password"].pop(0)
-    print(f"{dict} ---- changed")
+    user_data["login"].pop(0)
+    user_data["password"].pop(0)
+    if not user_data["login"]:
+        del user_data["login"]
+    if not user_data["password"]:
+        del user_data["password"]
 
-take_data()
-delete()
-delete()
+    print(f"{user_data} ---- changed")
+
+

@@ -1,7 +1,8 @@
 import pyautogui as pg
 import config
 from time import sleep
-
+import sys
+sys.path.append(r"E:\python\users")
 
 
 ## 3)ALGORITHM FOR PASTING DATA(TITAN) ## 2)TAKE DATA
